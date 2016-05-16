@@ -29,7 +29,7 @@ Tarantool is leveraged by <a href="https://corp.mail.ru/en/company/portal/">100+
       content: >
         Two highly productive storage engines: one is 100%
         in-memory with optional persistence, and the other is
-        disk based with a `log structured tree <http://sphia.org/>`_, which is highly
+        disk based with a log structured merge tree, which is highly
         efficient even with slow HDD!
     - format: rst
       content: >
@@ -85,17 +85,14 @@ Tarantool is leveraged by <a href="https://corp.mail.ru/en/company/portal/">100+
   businessservices:
     - format: rst
       content: >
-        We offer 24x7 business support at very moderate pricing
+        We offer 24x7 business support at very moderate pricing, along with consulting, implementation and training
     - format: rst
       content: >
-        We offer consulting, implementation and training
-    - format: rst
-      content: >
-        **Our support is conducted by the real software engineers
+        **Our support is conducted by real software engineers
         of the Tarantool core engine!**
     - format: rst
       content: >
-        Terms and conditions of all the commercial services are
+        Terms and conditions of all commercial services are
         available upon request, please send an inquiry to `support@tarantool.org <support@tarantool.org>`_
   whytarantool:
       - format: rst
@@ -125,9 +122,9 @@ Tarantool is leveraged by <a href="https://corp.mail.ru/en/company/portal/">100+
           When we’re saying the cornerstone then we really mean it.
           Just a couple of examples:
       - '<ul class="b-support-list">
-			<li class="b-features-list-item">Mail.Ru Email heavily leverages Tarantool. It’s no caching. It’s not backed by any other database. <b>Tarantool is the single source of truth</b></li>
+			<li class="b-features-list-item">Mail.Ru Email heavily leverages Tarantool. It’s not caching. It’s not backed by any other database. <b>Tarantool is the single source of truth</b></li>
 			<li class="b-features-list-item">Mail.Ru Calendar uses Tarantool as its the one and only storage</li>
-			<li class="b-features-list-item">Mail.Ru Cloud doesn’t use any traditional database at all except Tarantool. Even financial transactions are securely stored into Tarantool without any backend</li>
+			<li class="b-features-list-item">Mail.Ru Cloud doesn’t use any traditional database except Tarantool. Even financial transactions are securely stored into Tarantool without any backend</li>
 		</ul>'
       - format: rst
         content: >
@@ -148,10 +145,16 @@ Tarantool is leveraged by <a href="https://corp.mail.ru/en/company/portal/">100+
           engineers and architects of one of the most**
           `successful <https://corp.mail.ru/en/press/releases/9530/>`_ **Internet businesses worldwide**
   usecases:
-      - "Session management system"
-      - "Authentication system"
+      - format: rst
+        content: >
+          `Session management system <https://medium.com/@denisanikin/heavy-workloads-our-use-cases-of-tarantool-914b0b1cbac2>`_
+      - format: rst
+        content: >
+          `Authentication system <https://medium.com/@denisanikin/heavy-workloads-our-use-cases-of-tarantool-914b0b1cbac2>`_
       - "Anti brute-force, anti spam, anti fraud/hacker systems"
-      - "Online ad system"
+      - format: rst
+        content: >
+          `Online ad system <https://medium.com/@denisanikin/heavy-workloads-our-use-cases-of-tarantool-914b0b1cbac2>`_
       - format: rst
         content: >
           `Fast & durable queueing solution <https://medium.com/@shveenkov/asyncio-tarantool-queue-get-in-the-queue-3d10d84edb38>`_
